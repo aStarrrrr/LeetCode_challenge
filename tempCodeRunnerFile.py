@@ -1,1 +1,1 @@
-@classmethod
+primeornot

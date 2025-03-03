@@ -18,7 +18,7 @@ class Cat(Pet):
     def sounds(self):
         print("Meow")
     def show(self):
-        print(f"Iam {self.name} and iam {self.age} year old and iam a {self.color}")
+        print(f"Iam {self.name} and iam {self.age} year old and iam aaaaaaaaaaaaa {self.color}")
 
 class Bird(Pet):
     pass
