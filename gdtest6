@@ -1,0 +1,16 @@
+try:
+    num = int(input("Enter number: "))
+except ValueError:
+    print("That's not a number!")
+else:
+    print("Good job!")
+finally:
+    print("This will always run")
+
+try:
+    marks = int(input("Enter your marks: "))
+    print(100 / marks)
+except ZeroDivisionError:
+    print("Marks can't be zero!")
+except ValueError:
+    print("Enter a valid number!")
