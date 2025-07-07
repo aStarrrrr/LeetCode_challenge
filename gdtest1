@@ -1,0 +1,21 @@
+print('Hi iam Abhinand Shaji')
+
+roll_number = 4
+
+print(type(roll_number))
+
+if roll_number == 4:
+    print('Yes its my roll number. Iam roll number ',roll_number)
+else:
+    print('Its not my roll number')
+    
+for i in range(40):
+    print(i)
+    
+print('----------------------------------')
+    
+i = 41
+test = 1
+while test < i:
+    print(test)
+    test+=1
