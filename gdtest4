@@ -1,0 +1,34 @@
+def greet():
+    print('Hi iam Abhinand')
+greet()
+
+def greet_with_name(name):
+    print('Hello iam',name)
+greet_with_name('Kaattu')
+
+def add(a,b):
+    return a+b
+    
+result = add(4,40)
+
+print(result)
+
+#we can pass default parameter to the function -
+
+def guest_welcome(name='GuesT'):
+    print("Hello my guest -",name)
+
+guest_welcome()
+guest_welcome('Mammootty')
+
+def show(*args):
+    for item in args:
+        print(item)
+        
+show('skjdhbfhdas','jasvdhjfboad','jhasbdjj')
+
+def display_list(**kwargs):
+    for key,value in kwargs.items():
+        print(key,':',value)
+        
+display_list(name="Abhinand", age=20)
