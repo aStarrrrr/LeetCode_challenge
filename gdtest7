@@ -1,0 +1,12 @@
+string = 'malayAlam'
+print(string[::-1])
+
+rev = ''
+for data in string:
+    rev = data + rev
+print(rev)
+
+if string.lower() == rev.lower():
+    print('pal')
+else:
+    print('Not pal')
