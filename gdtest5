@@ -1,0 +1,6 @@
+odd_nums = [x for x in range(21) if x%2 != 0]
+print(odd_nums)
+
+name = 'Machine'
+name_list = [digit.lower() for digit in name]
+print(name_list)
