@@ -1,0 +1,78 @@
+num1 = 4
+num2 = 40.0
+name = 'Abhinand'
+male = True
+
+print(type(num1))
+print(type(num2))
+print(type(name))
+print(type(male))
+
+print('-------------------------------------------')
+
+my_list = ['apple','banana','orange',4,40]
+print(my_list)
+print(my_list[0],my_list[4])
+my_list.append('Pineapple') #adding to list
+print(my_list)
+my_list.remove('orange') # removing from list
+print(my_list)
+my_list[4] = 'Avocardo' # changing the data in list
+print(my_list)
+
+print('-------------------------------------------')
+
+my_tuple = (3,6,9)
+print(my_tuple[1])
+
+print('-------------------------------------------')
+
+my_dict = {
+    'Name' : 'Abhinand',
+    'Age' : 21,
+    'Gender' : 'Male'
+}
+print(my_dict)
+print(my_dict["Name"])
+my_dict['Job'] = 'Software Engineer'
+print(my_dict)
+my_dict["Age"] = 22
+print(my_dict)
+
+print('-------------------------------------------')
+
+my_set = {4,40,4,40,'datastring'}
+print(my_set)
+print(40 in my_set)
+print(my_set)
+if 4 in my_set:
+    print('Kaachu present')
+my_set.add('kaattu')
+print(my_set)
+my_set.remove('datastring')
+print(my_set)
+
+print('-------------------------------------------')
+
+print(type(my_list))
+print(type(my_tuple))
+print(type(my_dict))
+print(type(my_set))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
