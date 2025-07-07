@@ -1,0 +1,23 @@
+a = 40
+if not a < 50:
+    print('Ok')
+else:
+    print('Not ok')
+    
+    
+fruits = ['danfuh','jhjdsbfskjhadfs','jhshbfapusdbf','shsbfdhbe']
+for data in fruits:
+    print(data)
+    
+for i in range(4):
+    print(i)
+
+for i in range(4):
+    if i == 1:
+        break
+    print(i)
+    
+for i in range(6):
+    if i == 4:
+        continue
+    print(i)
